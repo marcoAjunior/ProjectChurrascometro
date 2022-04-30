@@ -1,0 +1,32 @@
+body{
+    background: url(../Image/bg.jpeg);
+    margin-top: 50px;
+}
+#container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 300px;
+    margin: auto;
+    background: aliceblue;
+    padding: 20px;
+}
+#container input{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;   
+}
+#informacao{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 300px;
+    margin: auto;
+    
+    background: aliceblue;
+    padding: 20px;
+}
+#informacao p{
+    font-size: 0.6em;
+}
+#informacao h1{
+    font-size: 1em;
+}

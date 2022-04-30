@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <div id="container">        
+        <h1>Churrascômetro</h1>
+        <input id="adultos" type="number" name="adultos" placeholder="Adultos">
+        <input id="criancas" type="number" name="criancas" placeholder="Crianças">
+        <input id="duracao" type="number" name="duracao" placeholder="Duração (hrs)">
+        <button onclick="calcular()">Calcular</button>
+        <div id="resultado"></div>
+
+    </div>
+    <div id="informacao">
+        <h1>Critérios levado em conta</h1>
+        <p><strong>Carne:</strong> 400 g por pessoa.<br>Se for mais de 6 horas: 650 g por pessoa.</p>
+        <p><strong>Cerveja:</strong> 1200 ml por pessoa.<br>Se for mais de 6 horas: 2000 ml por pessoa.</p>
+        <p><strong>Refrigerante:</strong> 1000 ml por pessoa.<br>Se for mais de 6 horas 1500ml por pessoa.</p>
+        <p><strong>Crianças</strong> valem por 0,5.</p>
+    </div>
+   
+
+
+    <script src="./JavaScript/script.js"></script>
+</body>
+</html>
